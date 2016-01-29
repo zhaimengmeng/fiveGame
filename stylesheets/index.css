@@ -1,0 +1,165 @@
+body{
+	font-family: '华康娃娃字体';
+}
+#pictures{
+	z-index: 1000;
+	display: block;
+	
+}
+#font{
+	width: 200px;
+	height: 50px;
+	background: white;
+	box-shadow: 0 0 10px black;
+	position: absolute;
+	bottom: 300px;
+	left: 43%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 25px;
+	color: red;
+	cursor:pointer;
+	z-index: 100;
+	display: block;
+}
+#trues{
+	width: 200px;
+	height: 50px;
+	background: white;
+	box-shadow: 0 0 10px black;
+	position: absolute;
+	bottom: 200px;
+	left: 43%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 25px;
+	color: red;
+	cursor:pointer;
+	z-index: 100;
+	display: block;
+}
+#guize{
+	width: 240px;
+	height: 100px;
+	background: white;
+	box-shadow: 0 0 10px black;
+	position: absolute;
+	bottom: 80px;
+	left: 42%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 25px;
+	color: red;
+	cursor:pointer;
+	z-index: 100;
+	display: none;
+}
+#tishi{
+	width: 150px;
+	height: 100px;
+	background: white;
+	box-shadow: 0 0 10px black;
+	position: absolute;
+	bottom: 80px;
+	left: 60%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 25px;
+	color: red;
+	cursor:pointer;
+	z-index: 100;
+	display: none;
+}
+
+#banner{
+	width: 100%;
+	height: 660px;
+	background: url(../images/3.png) no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+#sence{
+	width: 600px;
+	height: 600px;
+	background-color: rgba(199, 193, 193, 0.5);
+	position: relative;
+	top: 30px;
+	left: 28%;
+	border-radius: 10px;
+
+}
+.block{
+	margin: 0 1px 1px 0;
+	float: left;	
+	border-radius: 50%;
+	cursor: pointer;
+	position: relative;
+
+}
+.consion{
+	width: 35px;
+	height: 150px;
+	background: black;
+	border-radius: 10px;
+	line-height: 50px;
+	color: red;
+	font-size: 30px;
+	position: absolute;
+	right: 250px;
+	top: 250px;
+}
+#owner{
+	width: 550px;
+	height: 100px;
+	font-size: 50px;
+	background: red;
+	color: white;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white;
+	/*border: 1px solid black;*/
+	position: absolute;
+	bottom: 300px;
+	right: 30%;
+	z-index: 100;
+	cursor: pointer;
+	display: none;
+
+}
+#ok{
+	width: 100px;
+	height: 50px;
+	background: black;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	border-radius: 10px;
+	position: absolute;
+	bottom: 200px;
+	left: 450px;
+	z-index: 200;
+	cursor: pointer;
+	display: none;
+}
+#go{
+	width: 100px;
+	height: 50px;
+	background: black;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	border-radius: 10px;
+	position: absolute;
+	bottom: 200px;
+	left: 780px;
+	z-index: 200;
+	cursor: pointer;
+	display: none;
+}
+
+
